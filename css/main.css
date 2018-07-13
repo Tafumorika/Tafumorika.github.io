@@ -160,4 +160,5 @@ footer section ul li a {
 }
 .colortext {
     color: red;
+    list-style-type: none;
 }
