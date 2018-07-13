@@ -158,7 +158,7 @@ footer section ul li a {
     text-decoration: none;
     width: auto;
 }
-.colortext {
+.color-text {
+    text-decoration: none;
     color: red;
-    list-style-type: none;
 }
