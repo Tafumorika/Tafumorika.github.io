@@ -213,17 +213,19 @@ section  img, div .avatar {
     font-size: 14px;
     margin: 0px 0px 22px -3px;
 }
+
 .comments {
+    margin-top: -7px;
     margin-bottom: 72px;
     word-spacing: 3px;
 }
 .comments div {
-    margin-top: 25px;
-    border-top: 1px solid white;
+    margin-top: 35px;
+
 
 }
 .comments img {
-    margin: 7px 10px 7px 0px;
+    margin: -3px 10px 7px 0px;
     width: 70px;
     height: 70px;
 
@@ -237,13 +239,13 @@ section  img, div .avatar {
 .answer-comment1 img,
 .answer2-comment1 img {
     margin-left: 130px;
-    margin-top: 4px;
+    margin-top: 0px;
 }
 .comment2 img {
     margin: 15px 0px 0px 0px;
 }
 .comment2 ul {
-    margin: 28px 0px -6px 25px;
+    margin: 10px 0px -6px 25px;
 }
 .answer-comment1-ul {
     margin: 14px 0px 0px 5px;
@@ -319,18 +321,20 @@ footer div {
     /*float:left;*/
     word-spacing: 3px;
      margin-left: -25px;
+     line-height: 17px;
 
     margin-right: 110px;
 
 }
 footer .recent ul {
-    margin-top: 15px;
+
     padding-bottom: 2px;
 
 }
 footer .recent li{
     font-size: 13px;
     list-style-type:square;
+    margin-left: -15px;
 }
 
 footer  .tags ul {
@@ -344,13 +348,16 @@ footer  .tags ul {
 .tags li {
     list-style-type: none;
     display: inline-block;
-    margin: 5px 5px 5px 3px;
+    margin: 3px 5px 5px 3px;
     border-left: 2px solid red;
     background-color: white;
     padding-bottom: 4px;
 
 }
-
+.tagsH {
+    margin-left: 10px;
+    padding-top: 10px;
+}
 .textW {
     margin-left: 62px;
     margin-right: 10px;
