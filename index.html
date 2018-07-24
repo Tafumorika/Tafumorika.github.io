@@ -4,6 +4,7 @@
     <title>A Post with Everything In It</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 <div class="page-header">
@@ -17,8 +18,8 @@
         </nav>
     </header>
 </div>
-<div class="img-red">
-    <img src="img/Red-flag.png" alt="Red flag">
+<div class="box-red">
+    <img src="img/C__fakepath_Red-flag.png" alt="Red flag">
     <span>January 7, 2017</span>
 </div>
 <main>
@@ -99,6 +100,7 @@
 
     <nav class="comments">
         <div class="comment1">
+            <hr>
             <img alt="avatar" src="img/Comment1.JPG" class="avatar">
             <ul class="comment1-ul">
                 <li><a href="#link5" class="color-text">Coen Jacobs</a></li>
@@ -107,8 +109,10 @@
                 <li>April 14, 2012 <a href="#link6" class="color-text">Reply</a></li>
             </ul>
         </div>
+
         <div class="answer-comment1">
             <img alt="avatar" src="img/answer-comment1.JPG" class="avatar">
+            <hr>
             <ul class="answer-comment1-ul">
                 <li><a href="#link7" class="color-text">Alex Shiels</a></li>
                 <li>The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
@@ -116,8 +120,11 @@
                 <li>April 14, 2012 <a href="#link8" class="color-text">Reply</a></li>
             </ul>
         </div>
+
         <div class="an-answer-comment1">
+
             <img alt="avatar" src="img/an-answer.JPG" class="avatar">
+            <hr>
             <ul class="an-answer-comment1-ul">
                 <li>Lloyd Budd</li>
                 <li>This book is a treatise on the theory of ethics, very popular during the Renaissance.</li>
@@ -126,6 +133,7 @@
         </div>
         <div class="answer2-comment1">
             <img alt="avatar" src="img/answer2.JPG" class="avatar">
+            <hr>
             <ul class="answer2-comment1-ul">
                 <li>Joseph Scott</li>
                 <li>Nulla sagittis convallis arcu. Sed sed nunc. Curabitur consequat.Quisque metus enim, venenatis fermentum,
@@ -133,7 +141,9 @@
                 <li>June 27, 2012 <a href="#link10" class="color-text">Reply</a></li>
             </ul>
         </div>
+
         <div class="comment2">
+            <hr>
             <img alt="avatar" src="img/admin.JPG" class="avatar">
             <ul class="comment2-ul">
                 <li><a href="#link11" class="color-text">Admin</a></li>
@@ -147,7 +157,7 @@
     <h3>Add a Comment</h3>
     <form method="post">
         <label for="comment">Comment:</label>
-        <textarea id="comment" name="comment" required></textarea>
+        <textarea id="comment" name="comment"></textarea>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
         <label for="email">Email Address:</label>
@@ -155,22 +165,22 @@
         <label for="name">Website:</label>
         <input type="text" id="website" name="website">
         <div class="buttons">
-            <input type="submit" value="Add Comment">
+            <input class="submit-red" type="submit" value="Add Comment">
         </div>
     </form>
 
 </main>
 <footer class="page-footer">
     <nav class="footer">
-        <section class="recent">
+        <div class="recent">
                 <h3>Recent Comments</h3>
                 <ul>
                 <li>Joseph Scott on About</li>
                 <li>Alex Shiels on About</li>
                 <li>Coen Jacobs on About</li>
             </ul>
-        </section>
-        <section class="tags">
+        </div>
+        <div class="tags">
                 <h3 class="tagsH">Tags</h3>
             <ul class="tags4">
                 <li><a href="#link13">Facebook</a></li>
@@ -180,16 +190,16 @@
                 <li><a href="#link17">Tag 2</a></li>
                 <li><a href="#link18">Tag 3</a></li>
             </ul>
-        </section>
-        <section class=" textW">
+        </div>
+        <div class=" textW">
             <h3 class="text-h3">Text Widget</h3>
             <p class="textWp">Interger ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Pellentesque egestas, neque sit amet
                 convallis pulvinar, justo nulla eleifed augue, ac auctor orci leo non est.In ac felis quis tortor malesuada pretium.
             </p>
-        </section>
-        <section class="copyright">
+        </div>
+        <div class="copyright">
             <p>Copyright © 2018</p>
-        </section>
+        </div>
     </nav>
 </footer>
 </body>
