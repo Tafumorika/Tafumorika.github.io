@@ -41,7 +41,32 @@ header ul li a {
     text-decoration: none;
 }
 
+.box-red {
+    /*display: inline-block;*/
+    position: absolute;
+    margin-left:20px;
+    margin-top:-30px;
 
+
+}
+.box-red img {
+    width: 109px;
+    height: 30px;
+}
+.box-red span {
+    display: block;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+.box-red span:before {
+    display: block;
+    content: " ";
+    background-color: red;
+}
 main {
     color: black;
     background-color: white;
@@ -56,8 +81,8 @@ main {
 .box-red {
     /*display: inline-block;*/
     position: absolute;
-    left: 166px;
-    top: 76px;
+    left: 6px;
+    top: 16px;
 
 }
 .box-red img {
