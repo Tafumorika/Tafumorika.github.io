@@ -44,7 +44,7 @@ header ul li a {
 .box-red {
     /*display: inline-block;*/
     position: absolute;
-    margin-left:20px;
+    margin-left:10px;
     margin-top:-30px;
 
 
@@ -72,7 +72,7 @@ main {
     background-color: white;
     width: 1000px;
     padding: 20px 25px 0px 25px;
-    margin: 46px auto 30px;
+    margin: 46px auto 25px;
     list-style-type: none;
     border: 1px solid ghostwhite;
     position: relative;
@@ -241,7 +241,7 @@ section  img, div .avatar {
 
 .comments {
     margin-top: -7px;
-    margin-bottom: 72px;
+    margin-bottom: 75px;
     word-spacing: 3px;
 }
 .comments div {
@@ -255,38 +255,41 @@ section  img, div .avatar {
     height: 70px;
 
 }
-.comments li{
+.comments p{
     list-style-type: none;
     padding: 1px;
     font-size: 14px;
-    margin: 8px 0px 5px 25px;
+    margin: 14px 0px -5px 25px;
+    line-height: 20px;
 }
 .answer-comment1 img,
 .answer2-comment1 img {
     margin-left: 130px;
-    margin-top: 0px;
+    margin-top: 5px;
 }
 .comment2 img {
-    margin: 15px 0px 0px 0px;
+    margin: -5px 0px 0px 0px;
 }
-.comment2 ul {
-    margin: 10px 0px -6px 25px;
+.comment2 p {
+    margin: 10px 10px 46px 55px;
 }
-.answer-comment1-ul {
+.answer-comment1-p {
     margin: 14px 0px 0px 5px;
 }
-.an-answer-comment1-ul {
-    margin: -5px 0px 33px 0px;
-}
-.answer2-comment1 {
-    margin-bottom: 20px;
+.answer2-comment1 p {
+    margin-bottom: 42px;
 }
 .an-answer-comment1 img{
     margin-left: 243px;
-    margin-top: -9px;
+    margin-top: 5px;
 
 }
-
+.an-answer-comment1 p{
+    margin-bottom: 40px;
+}
+.answer-comment1 {
+    margin-bottom: -15px;
+}
 textarea {
     height: 140px;
     width: 955px;
@@ -296,7 +299,9 @@ textarea {
 }
 form {
     color: grey;
+    margin-top: 22px;
 }
+
 form input{
     width: 494px;
     height: 40px;
@@ -318,6 +323,10 @@ form input[type="submit"]{
     color: lightgray;
     background-color: crimson;
 }
+.submint-red:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
 form label {
     font-size: 14px;
     top: 15px;
@@ -326,6 +335,7 @@ form label {
 footer {
     background-color: #293c59;
     margin: 10px auto;
+    padding-top: 6px;
 }
 footer nav {
     width: 1000px;
@@ -352,14 +362,15 @@ footer div {
 
 }
 footer .recent ul {
+    margin-left: -10px;
 
-    padding-bottom: 2px;
 
 }
 footer .recent li{
     font-size: 13px;
     list-style-type:square;
     margin-left: -15px;
+
 }
 
 footer  .tags ul {
@@ -398,6 +409,8 @@ footer  .tags ul {
 .copyright {
     padding: 20px 5px 20px 0px;
     font-size: 14px;
+    margin-top: 35px;
+    margin-left: -30px;
 }
 
 footer div ul li a {
