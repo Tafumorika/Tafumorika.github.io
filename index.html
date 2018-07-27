@@ -3,7 +3,7 @@
 <head>
     <title>A Post with Everything In It</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
 <body>
@@ -56,7 +56,7 @@
         erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus,metus
     </p>
     <p class="ps">An Unordered List</p>
-    <ul class="squares fonts">
+    <ul class="squares">
         <li>Vestibulum in mauris semper tortor interdum ultrices.</li>
         <li>Sed vel lorem et justo laoreet bibendum. Donec dictum</li>
         <li>Etiam massa libero, lacinia at, commodo in, tincidunt a, purus.</li>
@@ -100,70 +100,53 @@
 
     <nav class="comments">
         <div class="comment1">
-            <hr>
+
             <img alt="avatar" src="img/Comment1.JPG" class="avatar">
-            <p class="comment1-p">
-                <a href="#link5" class="color-text">Coen Jacobs</a>
-                <br>
-                It is a long estabished fact that a reader will be distracted by the readable contebt of a page when looking at its
-                    layout.
-                <br>
-                April 14, 2012 <a href="#link6" class="color-text">Reply</a>
-            </p>
+            <p class="name-comment"><a href="#link5" class="color-text">Coen Jacobs</a></p>
+                <p class="text-comment">It is a long estabished fact that a reader will be distracted by the readable contebt of a page when looking at its
+            layout.</p>
+
+            <p class="data-comment">April 14, 2012 <a href="#link6" class="color-text">Reply</a></p>
         </div>
 
         <div class="answer-comment1">
-            <img alt="avatar" src="img/answer-comment1.JPG" class="avatar">
             <hr>
-            <p class="answer-comment1-p">
-                <a href="#link7" class="color-text">Alex Shiels</a>
-                <br>
-                The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
-                    non-characteristic words etc.
-                <br>
-                April 14, 2012 <a href="#link8" class="color-text">Reply</a>
-            </p>
+            <img alt="avatar" src="img/answer-comment1.JPG" class="avatar">
+            <p class="name-comment"><a href="#link7" class="color-text">Alex Shiels</a></p>
+            <p class="text-comment">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
+                non-characteristic words etc.</p>
+            <p class="data-comment">April 14, 2012 <a href="#link8" class="color-text">Reply</a></p>
         </div>
 
         <div class="an-answer-comment1">
+            <hr>
             <img alt="avatar" src="img/an-answer.JPG" class="avatar">
-            <hr>
-            <p class="an-answer-comment1-p">
-                Lloyd Budd
-                <br>
-                This book is a treatise on the theory of ethics, very popular during the Renaissance.
-                <br>
-                June 27, 2012 <a href="#link9" class="color-text">Reply</a>
-            </p>
+            <p class="name-comment">Lloyd Budd</p>
+            <p class="text-comment">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+            <p class="data-comment">June 27, 2012 <a href="#link9" class="color-text">Reply</a></p>
         </div>
+
         <div class="answer2-comment1">
-            <img alt="avatar" src="img/answer2.JPG" class="avatar">
             <hr>
-            <p class="answer2-comment1-p">
-                Joseph Scott
-                <br>
-                Nulla sagittis convallis arcu. Sed sed nunc. Curabitur consequat.Quisque metus enim, venenatis fermentum,
-                    mollis in, porta et, nibh. Duis vulputate elit in elit. Mauris dictum.
-                <br>
-                June 27, 2012 <a href="#link10" class="color-text">Reply</a>
-            </p>
+            <img alt="avatar" src="img/answer2.JPG" class="avatar">
+            <p class="name-comment">Joseph Scott</p>
+            <p class="text-comment">Nulla sagittis convallis arcu. Sed sed nunc. Curabitur consequat.Quisque metus enim, venenatis fermentum,
+                mollis in, porta et, nibh. Duis vulputate elit in elit. Mauris dictum.</p>
+            <p class="data-comment">June 27, 2012 <a href="#link10" class="color-text">Reply</a></p>
         </div>
 
         <div class="comment2">
             <hr>
             <img alt="avatar" src="img/admin.JPG" class="avatar">
-            <p class="comment2-p">
-                <a href="#link11" class="color-text">Admin</a>
-                <br>
-                Nulla sagittis convallis arcu. Sed sed nunc. Curabitur consequat. Quisque metus enim, venenatis fermentum,
-                    mollis in, porta et, nibh.Duis vulputate elit in elit.
-                <br>
-                June 7, 2012 <a href="#link12" class="color-text">Reply</a>
-            </p>
+            <p class="name-comment"><a href="#link11" class="color-text">Admin</a></p>
+            <p class="text-comment">Nulla sagittis convallis arcu. Sed sed nunc. Curabitur consequat. Quisque metus enim, venenatis fermentum,
+                mollis in, porta et, nibh.Duis vulputate elit in elit.</p>
+            <p class="data-comment">June 7, 2012 <a href="#link12" class="color-text">Reply</a></p>
         </div>
     </nav>
 
     <h3>Add a Comment</h3>
+    <div class="form-div">
     <form method="post">
         <label for="comment">Comment:</label>
         <textarea id="comment" name="comment"></textarea>
@@ -177,12 +160,12 @@
             <input class="submit-red" type="submit" value="Add Comment">
         </div>
     </form>
-
+    </div>
 </main>
 <footer class="page-footer">
     <nav class="footer">
         <div class="recent">
-                <h3>Recent Comments</h3>
+                <h3 class="rec">Recent Comments</h3>
                 <ul>
                 <li>Joseph Scott on About</li>
                 <li>Alex Shiels on About</li>
@@ -195,9 +178,9 @@
                 <li><a href="#link13">Facebook</a></li>
                 <li><a href="#link14">featured</a></li>
                 <li><a href="#link15">Social media</a></li>
-                <li><a href="#link16">Tag 1</a></li>
-                <li><a href="#link17">Tag 2</a></li>
-                <li><a href="#link18">Tag 3</a></li>
+                <li class="tags-li"><a href="#link16">Tag 1</a></li>
+                <li class="tags-li"><a href="#link17">Tag 2</a></li>
+                <li class="tags-li"><a href="#link18">Tag 3</a></li>
             </ul>
         </div>
         <div class=" textW">
@@ -209,6 +192,7 @@
         <div class="copyright">
             <p>Copyright © 2018</p>
         </div>
+        <div class="clear-div"></div>
     </nav>
 </footer>
 </body>
