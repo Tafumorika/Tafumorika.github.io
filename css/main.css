@@ -1,6 +1,6 @@
 html,
 body {
-    background-color: gainsboro;
+    background-color: #ebebeb;
     font-family: Arial;
     margin:0px;
 
@@ -10,10 +10,11 @@ p, li {
     color: grey;
     padding: 5px;
 }
+
 div header {
     display:block;
     background-size: cover;
-    background-color: #293c59;
+    background-color: #2c4956;
     color: white;
     box-sizing: border-box;
     font-size: 15px;
@@ -47,8 +48,9 @@ header ul li a {
     position: absolute;
     margin-left:20px;
     margin-top:-27px;
-
-    background: red;
+    left: 6px;
+    top: 16px;
+    background: #ff0b1f;
     width: 100px;
     height: 26px;
 
@@ -62,16 +64,22 @@ header ul li a {
     color: white;
     margin-left: -15px;
     margin-top: -3px;
-    font-size: 5px;
+    display: block;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
 }
- .box-red ::after{
+ .box-red::after{
+     display: block;
      content: '';
      position: absolute;
      border: 5px solid transparent;
-     border-right: 5px solid red;
-     border-bottom: 5px solid red;
-     left: -20px;
-     top:-7px;
+     border-right: 5px solid #ff0000;
+     border-bottom: 5px solid #ff0000;
+     left: -10px;
+     top:0px;
  }
 main {
     color: black;
@@ -85,31 +93,6 @@ main {
     position: relative;
 
 }
-.box-red {
-    /*display: inline-block;*/
-    position: absolute;
-    left: 6px;
-    top: 16px;
-
-}
-.box-red img {
-    width: 109px;
-    height: 30px;
-}
-.box-red span {
-    display: block;
-    position: absolute;
-    left: 25px;
-    top: 10px;
-    color: white;
-    font-family: Arial, sans-serif;
-    font-size: 11px;
-}
-.box-red span:before {
-    display: block;
-    content: " ";
-    background-color: red;
-}
 
 main div .top1 {
     margin:18px 5px -8px -5px;
@@ -120,12 +103,13 @@ main div .top1 {
 
 main .fonts {
     font-size: 14px;
-    padding: 2px 0px;
-    margin-bottom: -10px;
+    margin: 0px;
     line-height: 22px;
+    padding-top: 12px;
+    padding-left: 1px;
 }
 main img {
-    padding-top: -15px;
+    /*padding-top: 0px;*/
     width: 440px;
     height: 295px;
     max-width: 100%;
@@ -133,68 +117,71 @@ main img {
 h1 {
     padding-top: 8px;
 }
-.h1s{
-    word-spacing: -4px;
-}
+
 .level1 {
     font-size: 28px;
-    margin: 25px -3px 0px -3px;
+    margin: 0px;
+    padding-top: 20px;
+
 }
 .level2 {
     font-size: 26px;
-    margin: 10px 0px 0px -3px;
+    margin: 10px 0px 0px 0px;
     word-spacing: 4.7px;
 }
 .level3 {
     font-size: 23px;
-    margin: 5px 0px 0px -3px;
+    margin: 5px 0px 0px 0px;
     word-spacing: 0.5px;
 }
 .level4 {
     font-size: 21px;
-    margin: 5px 0px 0px -3px;
+    margin: 5px 0px 0px 0px;
 }
 .level5 {
     font-size: 19px;
-    margin: 3px 0px 0px -3px;
+    margin: 3px 0px 0px 0px;
 }
 .level6 {
     font-size: 17px;
-    margin: 7px 0px 20px -3px;
+    margin: 7px 0px 2px 0px;
+    padding-top: 5px;
 }
 .ps {
     font-size: 22px;
-    margin: 13px 0px 12px -3px;
+    margin-top: 11px;
+    margin-bottom: 0px;
     font-weight: bold;
 }
 .ps1 {
     font-size: 22px;
-    margin: 28px 0px 15px -3px;
     font-weight: bold;
     word-spacing: 3px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+    margin: 0px;
 }
 .img1 {
     width: 500px;
     height: 335px;
 }
-.img2 {
-    margin-top: -7px;
-}
+
 .div-img2 {
     margin-bottom: -5px;
 }
 .img3 {
-    margin-top: -15px;}
-
+    padding: 0px;
+    }
 .tops {
-    margin: -17px 0px 0px -3px;
     font-size: 14px;
     line-height: 22px;
+    margin: 0px;
+    padding-left: 2px;
 }
 .icons {
     font-size: 13px;
     margin-top:-13px;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
 
 }
 .icons img {
@@ -208,14 +195,15 @@ main section {
 }
 .squares {
     list-style-type: square;
-    margin: -3px 28px 90px 29px;
     word-spacing: 2px;
-
+    padding-left: 28px;
+    padding-bottom: 0px;
+    line-height: 17px;
 }
 .squares li {
     font-size: 13px;
-    padding: 0px 0px 0px -25px;
-    margin: 1px 0px -6px -3px;
+
+
 }
 
 section  img, div .avatar {
@@ -226,13 +214,16 @@ section  img, div .avatar {
 }
 .floats {
     font-size: 14px;
-    padding-bottom: 105px;
-    margin: -11px 0px 0px 15px;
+    padding-bottom: 103px;
+    padding-top: 3px;
+    padding-left: 455px;
+    margin: 0px;
     word-spacing: 2px;
     line-height: 22px;
 }
 .ols {
-    margin-bottom: 29px;
+    padding-top: 3px;
+    margin-bottom: 30px;
 }
 .ols li{
     font-size: 14px;
@@ -240,84 +231,96 @@ section  img, div .avatar {
 
 }
 .top2 {
-    margin-top: 26px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 .tagss {
     font-size: 14px;
     margin: 0px 0px 22px -3px;
 }
-
-.comments {
-    margin-top: -7px;
-    margin-bottom: 75px;
-    word-spacing: 3px;
+.com-5 {
+    padding-bottom: 10px;
+}
+.comments div.answer-comment1  {
+    height: 90px;
 }
 .comments div {
-    margin-top: 35px;
-
-
+    height: 100px;
+}
+.comments div.comment1 {
+    padding-top: 7px;
+    height: 90px;
 }
 .comments img {
-    margin: -3px 10px 7px 0px;
+    padding-top: 6px;
     width: 70px;
     height: 70px;
-
 }
 .comments p{
-    list-style-type: none;
-    padding: 1px;
-    font-size: 14px;
-    margin: 14px 0px -5px 25px;
-    line-height: 20px;
+    font-size: 13px;
 }
-.answer-comment1 img,
-.answer2-comment1 img {
-    margin-left: 130px;
-    margin-top: 5px;
+.name-comment {
+    margin: 0px;
+    padding-left: 90px;
+    padding-top: 10px;
+    letter-spacing: 1px;
 }
-.comment2 img {
-    margin: -5px 0px 0px 0px;
+.text-comment {
+    margin: 0px;
+    padding-left: 90px;
+    padding-top: 2px;
 }
-.comment2 p {
-    margin: 10px 10px 46px 55px;
+.answer2-comment1 p.text-comment,
+.comment2 p.text-comment{
+    line-height: 19px;
+    word-spacing: 3px;
 }
-.answer-comment1-p {
-    margin: 14px 0px 0px 5px;
+.data-comment {
+    margin: 0px;
+    padding-left: 90px;
+    padding-bottom: 0px;
+    font-size: 12px;
 }
-.answer2-comment1 p {
-    margin-bottom: 42px;
+.answer-comment1,
+.answer2-comment1{
+    padding-left:130px;
 }
-.an-answer-comment1 img{
-    margin-left: 243px;
-    margin-top: 5px;
-
+.answer-comment1{
+    padding-bottom: 2px;
 }
-.an-answer-comment1 p{
-    margin-bottom: 40px;
+.answer2-comment1{
+    padding-bottom: 33px;
 }
-.answer-comment1 {
-    margin-bottom: -15px;
+.an-answer-comment1 {
+    padding-left: 243px;
+    padding-bottom: 10px;
+}
+.comment2 {
+    margin-bottom: 68px;
+}
+.form-div {
+    padding-right:4px;
 }
 textarea {
     height: 140px;
-    width: 955px;
-    max-width: 100%;
-    padding: 0px 20px;
-    margin: 10px auto 16px auto;
+    width: 100%;
+    padding: 5px;
+    margin: 8px auto 18px auto;
     border: 1px solid lightgray;
+    box-sizing: border-box;
 }
 form {
     color: grey;
-    margin-top: 22px;
+    margin-top: 20px;
 }
 
 form input{
-    width: 494px;
-    max-width: 100%;
-    height: 40px;
-    padding: 4px 250px 1px 252px;
+    width: 100%;
+    height: 47px;
+    padding: 5px;
     margin: 10px auto 20px auto;
     border: 1px solid lightgray;
+    box-sizing: border-box;
 }
 form input[type="submit"]{
     width: 174px;
@@ -325,9 +328,10 @@ form input[type="submit"]{
     margin: 4px 0 25px 0;
     padding: 0px 0px 4px 4px;
     color: white;
-    background-color: red;
+    background-color: #ff0b1f;
     border: none;
     font-size: 16px;
+    box-sizing: border-box;
 }
 .submit-red:hover {
     color: lightgray;
@@ -343,13 +347,15 @@ form label {
 }
 
 footer {
-    background-color: #293c59;
+    background-color: #2c4956;
     margin: 10px auto;
     padding-top: 6px;
+
 }
 footer nav {
     width: 1000px;
     margin: 0px auto;
+
 
 }
 footer div {
@@ -358,22 +364,25 @@ footer div {
     margin-right: auto;
     width: 25%;
     height:  100%;
-
-
-
+}
+.rec{
+    /*margin-top: 25px;*/
+    padding-top: 7px;
+    margin-left: 0px;
 }
  .recent {
-    /*float:left;*/
-    word-spacing: 3px;
-     margin-left: -25px;
-     line-height: 17px;
 
-    margin-right: 110px;
+    float:left;
+     word-spacing: 3px;
+     margin-left: -25px;
+     margin-right: 110px;
+     padding: 0px;
 
 }
 footer .recent ul {
-    margin-left: -10px;
-
+    margin-top: 24px;
+    padding-left: 30px;
+    line-height: 19px;
 
 }
 footer .recent li{
@@ -382,36 +391,49 @@ footer .recent li{
     margin-left: -15px;
 
 }
+.tagsH {
 
-footer  .tags ul {
+    margin: 0px;
+}
+.tags{
+    float: left;
+    padding-top: 17px;
+}
+footer   ul.tags4 {
     display: block;
-    /*float: top;*/
     width: 300px;
-    padding: 10px;
+    padding: 26px 10px 15px 10px;
     margin-right: 20px;
-
+    margin-top: 0px;
 }
 .tags li {
     list-style-type: none;
     display: inline-block;
-    margin: 3px 5px 5px 3px;
+    margin: 3px 5px 7px 2px;
     border-left: 2px solid red;
     background-color: white;
-    padding-bottom: 4px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+
+}
+.tags li.tags-li{
+    padding-right: 12px;
 }
 .tagsH {
     margin-left: 10px;
     padding-top: 10px;
 }
 .textW {
-    margin-left: 62px;
-    margin-right: 10px;
-    padding-right: 10px;
+    margin-left: 135px;
     font-size: 15px;
     line-height: 18px;
-    padding-top: 15px;
+    padding-top: 12px;
     word-spacing: 1px;
-    float: right;
+    float: left;
+}
+.textWp {
+    padding-top: 13px;
+    font-size: 13px;
 }
 
 
@@ -420,6 +442,11 @@ footer  .tags ul {
     font-size: 14px;
     margin-top: 35px;
     margin-left: -30px;
+    float: left;
+}
+.clear-div{
+    clear: both;
+    width: 100%;
 }
 
 footer div ul li a {
@@ -439,4 +466,26 @@ footer div ul li a {
     text-decoration: none;
     color: red;
     padding: 5px;
+}
+@media screen and (max-width:800px){
+    header nav {
+        width: 100%;
+    }
+
+
+
+    footer {
+        background: none;
+    }
+    footer nav {
+        background: #2c4956;
+        padding-top: 10px;
+
+    }
+ footer div{
+     background: #2c4956;
+     width: 100%;
+     height:  100%;
+ }
+
 }
