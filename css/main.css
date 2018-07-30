@@ -415,7 +415,7 @@ footer   ul.tags4 {
 .tags li {
     list-style-type: none;
     display: inline-block;
-    margin: 3px 5px 7px 2px;
+    margin: 3px 1px 7px 2px;
     border-left: 2px solid red;
     background-color: white;
     padding-bottom: 5px;
@@ -430,7 +430,7 @@ footer   ul.tags4 {
     padding-top: 10px;
 }
 .textW {
-    margin-left: 118px;
+    margin-left: 122px;
     width: 280px;
     font-size: 15px;
     line-height: 18px;
@@ -440,14 +440,17 @@ footer   ul.tags4 {
 }
 .textWp {
     padding-top: 14px;
+    margin-left: 0px;
+    padding-left: 0px;
     font-size: 13px;
+    line-height: 22px;
 }
 
 
 .copyright {
-    padding: 20px 5px 20px 0px;
+    padding: 0px 5px 20px 0px;
     font-size: 14px;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-left: -3px;
     float: left;
 }
