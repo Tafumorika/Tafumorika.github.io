@@ -112,6 +112,7 @@ main .fonts {
 main img {
     /*padding-top: 0px;*/
     width: 440px;
+    max-width: 100%;
 
 }
 h1 {
@@ -485,7 +486,7 @@ footer div ul li a {
         padding-left: 5px;
     }
      header ul {
-         width: 76%;
+         width: 100%;
          margin: 0px;
      }
     img{
@@ -550,19 +551,20 @@ footer div ul li a {
  }
 .recent, .tags, .textW, .copyright{
     padding: 0px 0px 0px 5px;
-    width: 90%;
+    width: 95%;
 }
 .recent ul {
     margin-left: 10px;
-    width: 90%;
+    width: 100%;
 }
 .recent li {
-    width: 90%;
+    width: 100%;
 }
 
 footer ul.tags4 {
     margin: 0px;
     padding: 20px 0px 0px 5px;
+    width: 100%;
 }
 .tagsH {
     margin: 0px;
